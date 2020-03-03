@@ -19,8 +19,6 @@ def distanceBlob (blob1, blob2):
     return (math.hypot(int(x2)-int(x1),int(y2)-int(y1)))-(radius1+radius2)
 
 
-
-
 while(1):
         ret, frame = cam.read()
 
